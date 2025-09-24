@@ -3,7 +3,9 @@ UnitTesting Project
 This project demonstrates basic JavaScript arithmetic functions inside a custom library, and how to test them using Mocha + Chai with all three assertion styles: Assert, Expect, and Should.
 
 📂 Project Structure
+
 UnitTesting/
+
 ├── main.js                  # Main program using mylib
 ├── mylib.js                 # Wrapper library (imports math functions)
 ├── src/
@@ -15,6 +17,7 @@ UnitTesting/
 ├── package.json             # NPM configuration
 ├── package-lock.json
 └── .gitignore
+
 ⚙️ Installation
 
 1.Clone the repository or unzip the archive.
