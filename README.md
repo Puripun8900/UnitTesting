@@ -2,44 +2,38 @@ UnitTesting Project
 
 This project demonstrates basic JavaScript arithmetic functions inside a custom library, and how to test them using Mocha + Chai with all three assertion styles: Assert, Expect, and Should.
 
-📂 Project Structure
+1.Navigate into the project folder:
 
-UnitTesting/
-
-├── main.js                  # Main program using mylib
-├── mylib.js                 # Wrapper library (imports math functions)
-├── src/
-│   └── math.js              # Core arithmetic library
-├── test/
-│   ├── mylib.test.js        # Assert style tests
-│   ├── mylib.expect.test.js # Expect style tests
-│   └── mylib.should.test.js # Should style tests
-├── package.json             # NPM configuration
-├── package-lock.json
-└── .gitignore
-
-⚙️ Installation
-
-1.Clone the repository or unzip the archive.
-
-2.Navigate into the project folder:
 cd UnitTesting
-3.Install dependencies:
+
+2.Install dependencies:
+
 npm install
+
 ▶️ Running the Main Program
+
 To execute the sample program:
+
 node main.js
+
 Expected Output:
+
 Add: 15
+
 Subtract: 5
+
 Multiply: 50
+
 Divide: 2
+
 Is 10 even?: true
+
 🧪 Running Unit Tests
 
 This project uses Mocha as the test runner and Chai as the assertion library.
 
 Run all tests with:
+
 npm test
 
 ✅ Test Coverage
